@@ -2,6 +2,7 @@ import React from "react";
 import { Dimensions, View } from "react-native";
 import{Text,Image,StyleSheet} from 'react-native'
 import topo from'../../../assets/topo.png'
+import logo from '../../../assets/logo.png'
 
 
 const width = Dimensions.get('screen').width
@@ -14,6 +15,10 @@ return<>
 <Text style={estilos.titulo}>Detalhes do carrinho</Text>
 <View style={estilos.carrinho}>
 <Text style={estilos.nome}>carrinho de compras</Text>
+<View>
+  <Image source={logo}/>
+  <Text>fazenda Etec</Text>
+</View>
 </View>
 
 </>
