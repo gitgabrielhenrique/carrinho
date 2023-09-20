@@ -11,8 +11,7 @@ const width = Dimensions.get('screen').width
 export  default function Carrinho(){
 return<>
 
-<Image source={topo} style={estilos.topo}></Image>
-<Text style={estilos.titulo}>Detalhes do carrinho</Text>
+
 <View style={estilos.carrinho}>
 <Text style={estilos.nome}>carrinho de compras</Text>
 <View>
